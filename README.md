@@ -7,7 +7,7 @@ In short, word embedding is to represent words in a vector space. Natural langua
 ## Shortcoming of most current word embedding models
 Briefly most current embedding models depend on the correlation between words appearing nearly. The hypothesis of this idea is that words occuring in similar contexts have similar meanings. But actually the words having similar contexts only means similar grammar, not similar semanteme. So the vector spaces being trained from these models are suitable for analyzing word semantic relatedness, not word semantic similarity.
 ## Embedding based on corpus and thesaurus
-sometimes we are eager for word embedding that is specialized for specific task. For example specialized word similarity for translation and specialized word relatedness for document classification. Some paper retrofit and specialize word embedding with both corpus context and specific thesaurus. I reproduct the idea of  [this paper][2] and extra two thesauruses: the word similarity thessaurus from the electrionic dictionary [MyThes][3]. and the word relatedness thesaurus from the data set [USF Free Association Norms][4]. 
+sometimes we are eager for word embedding that is specialized for specific task. For example specialized word similarity for translation and specialized word relatedness for document classification. Some paper retrofit and specialize word embedding with both corpus context and specific thesaurus. I reproduct the idea of [this paper][2] and extra two thesauruses: the word similarity thessaurus from the electrionic dictionary [MyThes][3]. and the word relatedness thesaurus from the data set [USF Free Association Norms][4]. 
 
 ## Usage
 for training with thesaurus jointly, command  line：
