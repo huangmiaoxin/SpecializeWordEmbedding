@@ -26,7 +26,7 @@ python evaluation_with_pearson_coeff.py ./models/raw_embedding.model ./models/re
 ## Result
 I only train this model briefly with corpus text8 for about 30 mins, the evalution result show as follow:
 > relatedness evaluation: raw embedding(0.514) vs. relatedness embedding(0.605)
-similarity evaluation: raw embedding(0.297) vs. similarity embedding(0.521)
+> similarity evaluation: raw embedding(0.297) vs. similarity embedding(0.521)
 
 environment: Ubuntu(16.04.2), CUDA(9.0), python(3.5.4), pytorch(0.1.12)
 
