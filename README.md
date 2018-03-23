@@ -20,7 +20,7 @@ unrar e text8.part1
 ```
 for training on corpus 'text8' with thesaurus jointly, command  line：
 ```shell
-python specializing_word_embedding.py ./corpus/text8 ./models/relatednesss_embedding.model ./thesaurus/USF_words_relatedness.js
+python specializing_word_embedding.py ./corpus/text8 ./models/relatedness_embedding.model ./thesaurus/USF_words_relatedness.js
 python specializing_word_embedding.py ./corpus/text8 ./models/similarity_embedding.model ./thesaurus/th_en_US_new.js
 ```
 for training without thesaurus, command  line：
