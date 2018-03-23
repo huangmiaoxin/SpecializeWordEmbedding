@@ -10,7 +10,7 @@ Briefly most current embedding models depend on the correlation between words ap
 sometimes we are eager for word embedding that is specialized for specific task. For example specialized word similarity for translation and specialized word relatedness for document classification. Some paper retrofit and specialize word embedding with both corpus context and specific thesaurus. I reproduct the idea of [this paper][2] and extra two thesauruses: the word similarity thessaurus from the electrionic dictionary [MyThes][3]. and the word relatedness thesaurus from the data set [USF Free Association Norms][4]. 
 
 ## Notices
-this code contains a large file, so git clone command may take a few time in operation 'Unpacking objects', please be patient.
+this code contains a large file, so git clone command may take a few time on operation 'Unpacking objects', please be patient.
 
 ## Usage
 extra corpus 'text8', a text dataset in the folder corpus:
